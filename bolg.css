@@ -1,0 +1,53 @@
+body {
+    width: 960px;
+    margin: 15px auto;
+    font-family: Arial, "MS Trebuchet", sans-serif;
+    background-color: azure;
+}
+
+header#page_header {
+    width: 100%;
+}
+
+footer#page_footer {
+    clear: both;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+header#page_header nav ul,
+footer#page_footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header#page_header nav ul li,
+footer#page_footer nav ul li {
+    padding: 0;
+    margin: 0 20px 0 0;
+    display: inline;
+}
+
+section#posts {
+    float: left;
+    width: 74%;
+}
+
+section#sidebar {
+    float: right;
+    width: 25%;
+}
+
+section#posts aside {
+    float right;
+    width: 35%;
+    margin-left: 5%;
+    font-size: 20px;
+    line-height: 40px;
+}
+div{
+  margin:10px 20px 10px 1px;
+}
